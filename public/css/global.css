@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  font-family: "Press Start 2P", cursive;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#0CBABA, #380036);
+}
+body h1 {
+  padding-bottom: 5rem;
+}
+
+.container {
+  min-height: 250px;
+  height: 50vh;
+  padding: 1rem;
+  background-color: rgba(206, 214, 224, 0.2);
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.f-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}/*# sourceMappingURL=global.css.map */
