@@ -17,19 +17,55 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(#0CBABA, #380036);
+  background: linear-gradient(#0cbaba, #380036);
 }
 body h1 {
   padding-bottom: 5rem;
 }
 
 .container {
+  position: relative;
   min-height: 250px;
   height: 50vh;
   padding: 1rem;
   background-color: rgba(206, 214, 224, 0.2);
   border-radius: 2px;
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.container > * {
+  padding: 0.5rem;
+}
+.container form input {
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  height: 2rem;
+  max-width: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.container form button {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border: none;
+  background-color: rgba(132, 146, 163, 0.3);
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+}
+.container form button:hover {
+  color: black;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.container a {
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+}
+.container a:hover {
+  color: rgb(132, 146, 163);
 }
 
 .f-center {
@@ -45,4 +81,9 @@ body h1 {
 button {
   font-family: "Press Start 2P", cursive;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=global.css.map */
