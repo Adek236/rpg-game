@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 })
  
 app.post("/", async (req, res) => {
-  // admin create users
+  // admin create usersg
     return res.redirect("/game");
 });
 
