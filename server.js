@@ -23,7 +23,7 @@ app.post("/", async (req, res) => {
 
 app.get("/register", (req, res) => {
   return res.render("register.ejs");
-});
+}); 
 
 app.get("/game", (req, res) => {
   return res.render("game.ejs");
