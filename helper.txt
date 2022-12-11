@@ -1,6 +1,7 @@
 https://dev.to/gbudjeakp/how-to-connect-your-client-side-to-your-server-side-using-node-and-express-2i71 
 https://medium.com/@savinihemachandra/creating-rest-api-using-express-on-cloud-functions-for-firebase-53f33f22979c
 
+https://fireship.io/snippets/express-middleware-auth-token-firebase/
 
 
 
