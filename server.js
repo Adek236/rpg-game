@@ -21,7 +21,7 @@ app.post("/", async (req, res) => {
     return res.redirect("/game");
 });
 
-app.get("/register", (req, res) => {
+app.get("/register", (req, res) => { 
   return res.render("register.ejs");
 }); 
 
