@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 app.get("/", (req, res) => {
-  return res.render("login.ejs");
+  return res.render("login.ejs"); 
 })
 
 app.post("/", async (req, res) => {
