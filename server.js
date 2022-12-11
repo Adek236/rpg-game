@@ -15,7 +15,7 @@ app.set("views", "./views");
 app.get("/", (req, res) => {
   return res.render("login.ejs"); 
 })
-
+ 
 app.post("/", async (req, res) => {
   // admin create users
     return res.redirect("/game");
