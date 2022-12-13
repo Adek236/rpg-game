@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const port = process.env.PORT || 8080;
 const expressLayouts = require("express-ejs-layouts");
-const admin = require("./config/firebase");
+// const admin = require("./config/firebase");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
@@ -32,7 +32,3 @@ app.get("/game", (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
-
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`)
-})
